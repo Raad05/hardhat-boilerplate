@@ -1,3 +1,4 @@
+# environment files
 node_modules
 .env
 
@@ -8,6 +9,9 @@ node_modules
 # TypeChain files
 /typechain
 /typechain-types
+
+# gas report
+gas-report.txt
 
 # solidity-coverage files
 /coverage

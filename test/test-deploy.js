@@ -7,7 +7,7 @@ describe("Greet", () => {
     contractFactory = await ethers.getContractFactory("Greet");
     contract = await contractFactory.deploy();
   });
-  it("Should start with a favourite number of 0", async () => {
+  it("Should greet with Hi", async () => {
     const currentValue = await contract.str();
     const expectedValue = "Hi";
     // assert or expect
